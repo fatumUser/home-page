@@ -1,0 +1,2113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HomePage</title>
+    <meta
+      name="description"
+      content="This is where TobeCoupon, a robust platform providing discounts and coupons, comes into the picture, redefining your shopping journey. Your Ultimate Gateway to Incredible Savings with Promo Codes, Vouchers, and Discounts"
+    />
+    <meta name="keywords" content="TobeCoupon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <!--<base href="https://tobecoupon.com">--> <!-- Закомментировал , так как на хостинге пока ваши старые стили (Эта ссылка ссылает на ваш домен) -->
+    <!--<meta property="og:image" content="path/to/image.jpg">-->
+    <link
+      rel="shortcut icon"
+      href="https://tobecoupon.com/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://tobecoupon.com/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="https://tobecoupon.com/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="https://tobecoupon.com/apple-touch-icon-114x114.png"
+    />
+    <!--<link rel="stylesheet" href="https://tobecoupon.com/css/main.min.css"> -->
+
+    <link rel="stylesheet" href="css/slider.css"/> <!-- Добавил --> 
+    <link rel="stylesheet" href="css/main.css" /> <!-- Обнавленные ваши стили "https://tobecoupon.com/css/main.min.css" -->
+   
+    <meta
+      name="csrf-token"
+      content="eKXdmPfmsxXgnM6VyIgxI45o7BYUPEXJi52v9L3d"
+    />
+    <meta name="theme-color" content="#000" />
+    <meta name="msapplication-navbutton-color" content="#000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000" />
+    <meta name="ir-site-verification-token" value="1789416348" />
+    <meta name="verify-admitad" content="5828ff601e" />
+    <meta name="msvalidate.01" content="A81E64112E2AE8DF0521A7F03F8632E5" />
+    <meta name="yandex-verification" content="3acfde222205321f" />
+    <meta
+      name="google-site-verification"
+      content="aCs18gAEfU_kmpk2B-lKbo5DtoVH3fDOYrVDNGw0As8"
+    />
+  </head>
+  <body>
+    <header class="header header-second header-font">
+      <div class="wrapper">
+        <div class="header-main">
+          <div class="header-logo">
+            <a href="https://tobecoupon.com">
+              <!--<img src="https://tobecoupon.com/img/logo.svg" alt="Tobecoupon">-->
+              <img class="logo" src="img/logo.svg" alt="Tobecoupon" />
+            </a>
+          </div>
+          <div class="header-form">
+            <div class="header-form__wrap">
+              <form action="https://tobecoupon.com/search">
+                <input
+                  autocomplete="off"
+                  type="text"
+                  name="q"
+                  value=""
+                  placeholder="Enter the name of the store"
+                />
+                <button
+                  type="submit"
+                  title="Search"
+                  class="hb-ico search-ico"
+                ></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="header-row">
+          <div class="header-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+            >
+              <path
+                fill="none"
+                fill-rule="evenodd"
+                stroke="#333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M9.5 9.5L1 18l8.5-8.5L18 18 9.5 9.5zm0 0L18 1 9.5 9.5 1 1l8.5 8.5z"
+              />
+            </svg>
+          </div>
+          <ul class="header-list">
+            <li><a href="https://tobecoupon.com/catalog">Stores</a></li>
+            <li><a href="https://tobecoupon.com/blog">Blog</a></li>
+            <li><a href="https://tobecoupon.com/faq">FAQ</a></li>
+            <li>
+              <p id="text_special-offers" class="text_special-offers" href="https://tobecoupon.com/faq" 
+              onclick="dropBlock()"
+                >Special offers</p
+              >
+              <div id="drop-block" class="header-list__drop-block">
+                <div class="header-list__drop-block__content">
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/robot.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-cyber-monday"
+                      >Cyber Monday</a
+                    >
+                  </div>
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/bag.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-extended-sale"
+                      >Extended Sale</a
+                    >
+                  </div>
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/rocket-launch.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-cyber-week-sale"
+                      >Cyber Week Sale</a
+                    >
+                  </div>
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/shield-star 1.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-independence-day-sale"
+                      >Independence Day Sale</a
+                    >
+                  </div>
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/sword 1.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-big-game-monday-sale"
+                      >Big Game Monday Sale</a
+                    >
+                  </div>
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/book-open.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-back-to-school-sale"
+                      >Back-to-School Sale</a
+                    >
+                  </div>
+                  <div class="header-list__drop-block__content__cell">
+                    <img src="img/moon.svg" alt="">
+                    <a href="https://tobecoupon.com/sale-black-friday"
+                      >Black Friday</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="block-social">
+               <p class="block-social__title">Social</p>
+               <a href="#">Facebook</a>
+               <a href="#">Youtube</a>
+          </div>
+        </div>
+        <div class="header-bar">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height="15"
+            viewBox="0 0 23 15"
+          >
+            <path
+              fill="none"
+              fill-rule="evenodd"
+              stroke="#333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M1 1.5h21H1zm0 6h21H1zm0 6h21H1z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <section class="slider">
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img.svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-1.svg" alt="">
+
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Marketplaces</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img.svg" alt="" style="z-index: 0;">
+            
+          </div>
+          
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (1).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-2.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Clothing and footwear</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (1).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (2).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-3.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Jewelry and accessories</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (2).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (3).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-4.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Beauty and health</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (3).svg" alt="" style="z-index: 0;">
+            <!--<img src="img/slider/image.png" alt="">-->
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (4).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-5.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Electronics and technology</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (4).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (5).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-6.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Food delivery and groceries</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (5).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (6).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-7.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Leisure and entertainment</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (6).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (7).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-8.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Services</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (7).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (8).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-9.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Game</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (8).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (9).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-10.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Travel</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (9).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (10).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-11.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Children</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+              <div class="swiper-slide__button">
+               <p>See offers</p>
+              </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (10).svg" alt="" style="z-index: 0;">
+            
+          </div>
+
+          <div class="swiper-slide">
+
+            <img id="slide__img-pad-mob" src="img/slider/img (11).svg" alt="">
+            <img id="slide__img-mob" src="img/slider/min/img-12.svg" alt="">
+            
+            <div class="swiper-slide__wrapper">
+              <div class="swiper-slide__wrapper-2">
+               <p class="swiper-slide__title">Everything for home</p>
+               <p class="swiper-slide__info">
+                Discounts on all clothing and footwear
+                from specific brands or product categories.
+              </p>
+            </div>
+            
+            <a href="#">
+             <div class="swiper-slide__button">
+              <p>See offers</p>
+             </div>
+            </a>
+
+            </div>
+            
+            <img src="img/slider/img (11).svg" alt="" style="z-index: 0;">
+            
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        
+      </div>
+
+    </section>
+
+    <section class="alphabet">
+       
+      <div class="alphabet-content">
+        <a href="#" id="alphabet-content_van-char">0-9</a>
+         <a href="#">A</a>
+         <a href="#">B</a>
+         <a href="#">C</a>
+         <a href="#">D</a>
+         <a href="#">E</a>
+         <a href="#">F</a>
+         <a href="#">G</a>
+         <a href="#">H</a>
+         <a href="#">I</a>
+         <a href="#">J</a>
+         <a href="#">K</a>
+         <a href="#">L</a>
+         <a href="#">M</a>
+         <a href="#">N</a>
+         <a href="#">O</a>
+         <a href="#">P</a>
+         <a href="#">Q</a>
+         <a href="#">R</a>
+         <a href="#">S</a>
+         <a href="#">T</a>
+         <a href="#">U</a>
+         <a href="#">V</a>
+         <a href="#">W</a>
+         <a href="#">X</a>
+         <a href="#">Y</a>
+         <a href="#">Z</a>
+      </div>
+      
+    </section>
+
+    <section class="shops">
+      <div class="wrapper">
+        <h2 class="section-title">109 stores</h2>
+        <div class="shops-row">
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-codes-aliexpress"
+                class="shops-link"
+                title="AliExpress"
+                aria-label="AliExpress"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/12/d21d53ab4f8d044c1410e42d17f002eb450510b8.png"
+                  alt="AliExpress"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">AliExpress</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>2.50</i><b>5.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-codes-american-eagle-outfitters"
+                class="shops-link"
+                title="American Eagle Outfitters"
+                aria-label="American Eagle Outfitters"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/12/4c7584e212603dd4f375e81191dbb0cd5c057de6.jpg"
+                  alt="American Eagle Outfitters"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">American Eagle Outfitters</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>5.00</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-cod-iherb"
+                class="shops-link"
+                title="iHerb"
+                aria-label="iHerb"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/12/27e9cbc727c49ceda48eaea0ad28168a33bb4dc3.jpg"
+                  alt="iHerb"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">iHerb</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>2.50</i><b>5.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-codes-vevor"
+                class="shops-link"
+                title="Vevor"
+                aria-label="Vevor"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/15/768f9a9f6d6e144d2a2e9ad1f56140b3757d83bf.jpg"
+                  alt="Vevor"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Vevor</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>2.50</i><b>5.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-walmart-coupons"
+                class="shops-link"
+                title="Walmart"
+                aria-label="Walmart"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/17/bb7bd58412402d7988e2c4bfcd6a5a15ff008ce4.jpg"
+                  alt="Walmart"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Walmart</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>2.50</i><b>5.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-bloomchic"
+                class="shops-link"
+                title="BloomChic"
+                aria-label="BloomChic"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/17/71cebf2c05ed344caabd3dd25e5351f9d9d7e120.jpg"
+                  alt="BloomChic"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">BloomChic</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>2.50</i><b>5.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-blush-mark"
+                class="shops-link"
+                title="Blush Mark"
+                aria-label="Blush Mark"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/17/75e63cd4db7c9971e1bef7543ba5fa3fd5d18fe2.jpg"
+                  alt="Blush Mark"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Blush Mark</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-carters"
+                class="shops-link"
+                title="Carter&#039;s"
+                aria-label="Carter&#039;s"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/4a59270926de47c709a00c5afc7a9c4d97de203d.jpg"
+                  alt="Carter&#039;s"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Carter&#039;s</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.00</i><b>8.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-crocs"
+                class="shops-link"
+                title="Crocs"
+                aria-label="Crocs"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/5f51a8934638066b15c8ed635a47fc41e1e7a06c.jpg"
+                  alt="Crocs"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Crocs</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-fanatics"
+                class="shops-link"
+                title="Fanatics"
+                aria-label="Fanatics"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/91f9020a6b05c6a8a05afd3330bd8936fe7c88b8.jpg"
+                  alt="Fanatics"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Fanatics</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-lightinthebox"
+                class="shops-link"
+                title="Lightinthebox"
+                aria-label="Lightinthebox"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/6d556b94e552af826f2cbe97c95ec0f0ff5312a4.jpg"
+                  alt="Lightinthebox"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Lightinthebox</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-macys"
+                class="shops-link"
+                title="Macy&#039;s"
+                aria-label="Macy&#039;s"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/5ece1f0734765a14c46811aa462c87005f78fa54.jpg"
+                  alt="Macy&#039;s"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Macy&#039;s</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-patpat"
+                class="shops-link"
+                title="PatPat"
+                aria-label="PatPat"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/f3191e2114cad26f4953c9563018881a494fd6c5.jpg"
+                  alt="PatPat"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">PatPat</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.00</i><b>8.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-temu"
+                class="shops-link"
+                title="Temu"
+                aria-label="Temu"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/0c164c4c704c69585cca11840cba9048953ca145.jpg"
+                  alt="Temu"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Temu</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.50</i><b>7.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-abebooks"
+                class="shops-link"
+                title="AbeBooks"
+                aria-label="AbeBooks"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/3b26ddc222714912ec76d7d1af1158da05795134.jpg"
+                  alt="AbeBooks"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">AbeBooks</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-ana-luisa"
+                class="shops-link"
+                title="Ana Luisa"
+                aria-label="Ana Luisa"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/e626187b330425e9e16c90a6774b1c7838ec5c2b.jpg"
+                  alt="Ana Luisa"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Ana Luisa</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-doordash"
+                class="shops-link"
+                title="DoorDash"
+                aria-label="DoorDash"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/469ee65850e8aef5646ba8254f72ce8d9aa0acae.jpg"
+                  alt="DoorDash"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">DoorDash</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-edx"
+                class="shops-link"
+                title="EdX"
+                aria-label="EdX"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/19/abd3fab1b1e24bfd871f5c851ffd2b6f401b84b7.jpg"
+                  alt="EdX"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">EdX</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.00</i><b>8.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-fiverr"
+                class="shops-link"
+                title="Fiverr"
+                aria-label="Fiverr"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/43e855148cc5a40af905e8af4279d2ac2e241b5c.jpg"
+                  alt="Fiverr"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Fiverr</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.50</i><b>7.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-italki"
+                class="shops-link"
+                title="Italki"
+                aria-label="Italki"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/deae0b42ecef897705512e7bc6fca82e02605d08.jpg"
+                  alt="Italki"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Italki</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.00</i><b>8.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-mayvenn"
+                class="shops-link"
+                title="Mayvenn"
+                aria-label="Mayvenn"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/b0761b69937fced8ddb58bf717e4ec738a5d4aa0.jpg"
+                  alt="Mayvenn"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Mayvenn</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.00</i><b>6.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-preply"
+                class="shops-link"
+                title="Preply"
+                aria-label="Preply"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/163b7580256c5fa44b0e80bd8bda6a921a376308.jpg"
+                  alt="Preply"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Preply</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-proactiv"
+                class="shops-link"
+                title="Proactiv"
+                aria-label="Proactiv"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/247b86b327106de0f5f9d8beb72e4762643796b5.jpg"
+                  alt="Proactiv"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Proactiv</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.00</i><b>8.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-ticketmaster"
+                class="shops-link"
+                title="Ticketmaster"
+                aria-label="Ticketmaster"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/25da88722e3d95a3f7ace167cc19fddda7f1f58a.jpg"
+                  alt="Ticketmaster"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Ticketmaster</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-top-resume"
+                class="shops-link"
+                title="Top Resume"
+                aria-label="Top Resume"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/d8ef28c2cd1edc2619957db663b95686dda62edb.jpg"
+                  alt="Top Resume"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Top Resume</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-unice"
+                class="shops-link"
+                title="Unice"
+                aria-label="Unice"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/a71fcba135dacb3d9716303eb2c10410405d3467.jpg"
+                  alt="Unice"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Unice</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-vionic"
+                class="shops-link"
+                title="Vionic"
+                aria-label="Vionic"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/b14c43b466338db7051e7ba3bb55c4b5d89e62c1.jpg"
+                  alt="Vionic"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Vionic</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.75</i><b>9.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-wish"
+                class="shops-link"
+                title="Wish"
+                aria-label="Wish"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/a556f9be16b45fe71a1ee164377b8d110f7758f4.jpg"
+                  alt="Wish"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Wish</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-tempur-pedic"
+                class="shops-link"
+                title="Tempur Pedic"
+                aria-label="Tempur Pedic"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/fc0eab49d9a0af1e454f538a37b9d0481c69dfdf.jpg"
+                  alt="Tempur Pedic"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Tempur Pedic</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.50</i><b>7.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-keeper-security"
+                class="shops-link"
+                title="Keeper Security"
+                aria-label="Keeper Security"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/80dc3373ea159c9507eeb81a3a621c2e7ebb2118.jpg"
+                  alt="Keeper Security"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Keeper Security</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.75</i><b>7.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-halara"
+                class="shops-link"
+                title="Halara"
+                aria-label="Halara"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/a46e968acd7cb2bfc366ae862031c80a503af20e.jpg"
+                  alt="Halara"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Halara</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>3.50</i><b>7.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-vooglam"
+                class="shops-link"
+                title="Vooglam"
+                aria-label="Vooglam"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/e886932cbbc235bb39d981a0fad0913f8b55de95.jpg"
+                  alt="Vooglam"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Vooglam</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-we-vibe"
+                class="shops-link"
+                title="We-Vibe"
+                aria-label="We-Vibe"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/c57660b7f084074b62fa7f3b534b2f71624e9c23.jpg"
+                  alt="We-Vibe"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">We-Vibe</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.50</i><b>9.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-kinguin"
+                class="shops-link"
+                title="Kinguin"
+                aria-label="Kinguin"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/2a328a103946e1433d8052dc2ad4536dc3ebffea.jpg"
+                  alt="Kinguin"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Kinguin</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.00</i><b>8.00<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shops-col">
+            <div class="shops-col__wrap">
+              <a
+                href="https://tobecoupon.com/shop-coupon-lookfantastic"
+                class="shops-link"
+                title="Lookfantastic"
+                aria-label="Lookfantastic"
+              ></a>
+              <div class="shops-col__top">
+                <img
+                  src="https://tobecoupon.com/storage/2023/07/20/44124580bd1f44a0c04d9de274d40f8677184523.jpg"
+                  alt="Lookfantastic"
+                />
+              </div>
+              <div class="shops-col__bottom">
+                <div class="shops-col__name">Lookfantastic</div>
+                <p>Discount from:</p>
+                <div class="shops-col__info">
+                  <p>
+                    <i>4.75</i><b>9.50<span>%</span></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://tobecoupon.com/catalog" class="main-btn">All stores</a>
+      </div>
+    </section>
+
+    <section class="banners">
+
+<div class="banner-1">
+      
+
+      <!--<div class="banner-1">-->
+
+       <div class="banners__info">
+            <p class="banners__text">Black Friday <br> Sale</p>
+            <a href="#">
+              <div class="banners__button">
+                <p>More</p>
+              </div>
+            </a>
+        </div>
+
+        <img class="banners-img-1" src="img/banners/banner-1.svg" alt="">
+        <img class="banners__img-min" src="img/banners/min/banner-1.svg" alt="">
+
+      </div>
+      <!--</div>-->
+
+      <!--<div class="banner-2">-->
+
+        <div class="banner-2">
+
+        <div class="banners__info">
+          <p class="banners__text" style="white-space: nowrap;">Get a discount <br>
+            promo code</p>
+          <a href="#">
+            <div class="banners__button">
+              <p>Open</p>
+            </div>
+          </a>
+        </div>
+
+        <img class="banners-img-2" src="img/banners/banner-2.svg" alt="">
+        <img class="banners__img-min" src="img/banners/min/banner-2.svg" alt="">
+      
+      </div>
+
+      <!--</div>-->
+
+      </div>
+
+    </section>
+
+    <section class="helpful">
+      <div class="wrapper">
+        <div class="helpful-block">
+          <div class="helpful-info">
+            <h2 class="helpful-title">TobeCoupon Extension</h2>
+            <p>
+              Install the extension and shop online, with cashback without
+              having to visit the site.
+            </p>
+            <span class="main-btn btn-disabled"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+              >
+                <path
+                  fill="#333"
+                  fill-rule="nonzero"
+                  stroke="#333"
+                  stroke-width=".5"
+                  d="M12.5 1C6.155 1 1 6.155 1 12.5S6.155 24 12.5 24 24 18.845 24 12.5 18.845 1 12.5 1zm0 1a10.49 10.49 0 0 1 9.238 5.5H12.5a.5.5 0 0 0-.057.003 5.006 5.006 0 0 0-4.92 4.536L4.018 6.325C5.926 3.707 9.008 2 12.5 2zM3.412 7.251l4.826 7.864a.5.5 0 0 0 .059.081A4.998 4.998 0 0 0 12.5 17.5c.707 0 1.378-.15 1.988-.415l-3.328 5.827A10.49 10.49 0 0 1 3.412 7.251zM12.5 8.5c2.215 0 4 1.785 4 4a3.99 3.99 0 0 1-.526 1.983A3.99 3.99 0 0 1 12.5 16.5c-2.215 0-4-1.785-4-4s1.785-4 4-4zm2.986 0h6.725c.507 1.233.789 2.583.789 4C23 18.305 18.305 23 12.5 23c-.079 0-.157-.004-.235-.006l4.577-8.015a.5.5 0 0 0 .03-.058c.399-.718.628-1.543.628-2.421a4.992 4.992 0 0 0-2.014-4z"
+                /></svg
+              ><span>Install for Chrome</span></span
+            >
+          </div>
+          <div
+            class="helpful-img"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-once="true"
+          >
+            <img
+              src="https://tobecoupon.com/img/helpful-img-big.png"
+              alt="Tobecoupon"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="articles">
+      <div class="wrapper">
+        <h2 class="section-title">Latest Articles</h2>
+        <div
+          class="articles-row"
+          data-aos="fade-zoom-in"
+          data-aos-duration="500"
+          data-aos-once="true"
+        >
+          <div class="article">
+            <div
+              class="article-img"
+              style="
+                background-image: url('img/blog-img/blog-img-1.svg');
+              "
+            >
+              <a href="https://tobecoupon.com/art-astragalus-iherb">
+               <!--   <img
+                  src="https://tobecoupon.com/storage/2022/12/03/a1646c70a07922ace5518ed7305b9448a900d5f6.jpg"
+                  alt="Astragalus iHerb: A Potent Natural Ally for Optimal Health"
+                />-->
+              <img src="img/blog-img/blog-img-1.svg" alt="">
+              </a>
+            </div>
+            <h3 class="article-title">
+              <a href="https://tobecoupon.com/art-astragalus-iherb"
+                >Astragalus iHerb: A Potent Natural Ally for Optimal Health</a
+              >
+            </h3>
+            <p>
+              In a world inundated by synthetic supplements, natural
+              alternatives like Astragalus iHerb provide a breath of fresh air.
+              With its roots in traditional Chinese medicine and an impressive
+              health-boosting profile.
+            </p>
+            <div class="article-bottom">
+              <div class="article-row">
+                <span>07 / 31</span>
+                <a href="https://tobecoupon.com/blog/iherb">iHerb</a>
+              </div>
+              <div class="article-time">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="6" cy="6" r="5.5" stroke="#A2A2A2" />
+                    <rect
+                      width="1"
+                      height="4"
+                      x="5"
+                      y="3"
+                      fill="#A2A2A2"
+                      rx=".5"
+                    />
+                    <rect
+                      width="3"
+                      height="1"
+                      x="5"
+                      y="6"
+                      fill="#A2A2A2"
+                      rx=".5"
+                    />
+                  </g></svg
+                ><span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="article article-medium">
+            <div
+              class="article-img"
+              style="
+                background-image: url('img/blog-img/blog-img-2.svg');
+              "
+            >
+              <a href="https://tobecoupon.com/art-artichoke-iherb">
+                <img
+                  src="img/blog-img/blog-img-2.svg"
+                  alt="Artichoke iHerb: Top-5 Artichoke iHerb Supplements"
+                />
+              </a>
+            </div>
+            <h3 class="article-title">
+              <a href="https://tobecoupon.com/art-artichoke-iherb"
+                >Artichoke iHerb: Top-5 Artichoke iHerb Supplements</a
+              >
+            </h3>
+            <p>
+              Discover Artichoke iHerb - your all-natural, potent solution to
+              stabilize cholesterol levels, enhance digestion, and aid in liver
+              detoxification. Explore its unique properties, uses, and benefits.
+            </p>
+            <div class="article-bottom">
+              <div class="article-row">
+                <span>07 / 31</span>
+                <a href="https://tobecoupon.com/blog/iherb">iHerb</a>
+              </div>
+              <div class="article-time">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="6" cy="6" r="5.5" stroke="#A2A2A2" />
+                    <rect
+                      width="1"
+                      height="4"
+                      x="5"
+                      y="3"
+                      fill="#A2A2A2"
+                      rx=".5"
+                    />
+                    <rect
+                      width="3"
+                      height="1"
+                      x="5"
+                      y="6"
+                      fill="#A2A2A2"
+                      rx=".5"
+                    />
+                  </g></svg
+                ><span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="article">
+            <div
+              class="article-img"
+              style="
+                background-image: url('img/blog-img/blog-img-3.svg');
+              "
+            >
+              <a href="https://tobecoupon.com/art-triphala-iherb">
+                <img
+                  src="img/blog-img/blog-img-3.svg"
+                  alt="Triphala iHerb: Your Path to Holistic Well-being"
+                />
+              </a>
+            </div>
+            <h3 class="article-title">
+              <a href="https://tobecoupon.com/art-triphala-iherb"
+                >Triphala iHerb: Your Path to Holistic Well-being</a
+              >
+            </h3>
+            <p>
+              Experience the powerful benefits of Ayurvedic wisdom with Triphala
+              iHerb. Dive into a journey of holistic well-being with our
+              high-quality, authentic Triphala supplement. Let iHerb guide you
+              on your wellness journey today
+            </p>
+            <div class="article-bottom">
+              <div class="article-row">
+                <span>07 / 31</span>
+                <a href="https://tobecoupon.com/blog/iherb">iHerb</a>
+              </div>
+              <div class="article-time">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="6" cy="6" r="5.5" stroke="#A2A2A2" />
+                    <rect
+                      width="1"
+                      height="4"
+                      x="5"
+                      y="3"
+                      fill="#A2A2A2"
+                      rx=".5"
+                    />
+                    <rect
+                      width="3"
+                      height="1"
+                      x="5"
+                      y="6"
+                      fill="#A2A2A2"
+                      rx=".5"
+                    />
+                  </g></svg
+                ><span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://tobecoupon.com/blog" class="main-btn"
+          >All TobeCoupon Articles</a
+        >
+      </div>
+    </section>
+    <section class="about">
+      <div class="wrapper">
+        <h2 class="section-title">Project Information</h2>
+        <h3 class="about-title">What is the TobeCoupon service?</h3>
+        <p>
+          In today's fast-paced digital age, shopping has transformed from a
+          simple brick-and-mortar experience to an exhilarating online
+          phenomenon. With an endless array of products and services at your
+          fingertips, the desire for exceptional deals and savings is
+          increasingly prevalent. This is where TobeCoupon, a robust platform
+          providing discounts and coupons, comes into the picture, redefining
+          your shopping journey.
+        </p>
+        <p>
+          Imagine having an array of the world's top brands and services, each
+          offering a trove of discounts, promo codes, and vouchers. This is
+          precisely the immersive shopping experience TobeCoupon offers. A
+          service that intertwines convenience, variety, and savings, TobeCoupon
+          embodies the ultimate digital bargain-hunter's paradise.
+        </p>
+        <p>
+          At TobeCoupon, we understand the exhilaration of securing a fantastic
+          deal. The joy of applying a promo code at checkout and watching the
+          total cost drop significantly. The satisfaction of knowing you've
+          managed to snag a product or service at a fraction of its original
+          price. These delightful experiences are what we strive to offer each
+          of our customers, every single day.
+        </p>
+        <p>
+          Our mission is straightforward – to provide a one-stop platform where
+          consumers can effortlessly locate promotional codes and vouchers,
+          paving the way to considerable savings. At TobeCoupon, we
+          revolutionize the shopping experience by merging the thrill of
+          discovering unique products and services with the satisfaction of
+          exceptional discounts.
+        </p>
+        <p>
+          Promotional codes, or promo codes as they are often called, are an
+          integral part of our service. These codes serve as digital coupons,
+          granting users access to exclusive deals and discounts on a wide array
+          of products and services. The moment you apply a TobeCoupon promo code
+          at checkout, you unlock a world of savings, making each purchase a
+          rewarding experience.
+        </p>
+        <p>
+          But our service doesn't stop at providing promo codes. We understand
+          that consumers seek variety in their savings options. Hence, we also
+          offer an extensive range of vouchers, serving as tickets to phenomenal
+          discounts. By providing both promo codes and vouchers, we ensure that
+          our users have the flexibility and freedom to choose their preferred
+          method of savings.
+        </p>
+        <p>
+          The TobeCoupon platform is designed to be user-friendly, allowing
+          customers to search for and apply promo codes and vouchers with utmost
+          ease. We believe that saving money should not be a complicated process
+          but rather an enjoyable and straightforward experience.
+        </p>
+        <p>
+          Our comprehensive system continuously updates its collection of promo
+          codes, vouchers, and discounts. This ensures that our users always
+          have access to the latest deals and promotions. From clothing to
+          electronics, beauty products to food delivery services, and more,
+          TobeCoupon offers a coupon or discount code for virtually every
+          category you can imagine.
+        </p>
+        <p>
+          In a world where consumers are continuously bombarded with advertising
+          and marketing promotions, TobeCoupon serves as a refreshing oasis.
+          Instead of making our users sift through countless offers to find a
+          worthwhile deal, we have adopted a more streamlined approach. By
+          centralizing promo codes and vouchers, we provide a platform where
+          exceptional deals are readily available, eliminating the need for
+          lengthy, time-consuming searches.
+        </p>
+        <p>
+          Moreover, TobeCoupon isn't just about providing discounts. It's about
+          cultivating a community of smart shoppers who understand the value of
+          their hard-earned money. It's about encouraging responsible consumer
+          behavior, promoting the idea that quality products and services should
+          not always equate to heavy spending.
+        </p>
+        <p>
+          By offering promotional codes and vouchers, TobeCoupon empowers
+          consumers to experience premium products and services without feeling
+          the financial pinch. With our platform, customers can confidently
+          explore various brands and services, secure in the knowledge that
+          fantastic deals and discounts are always within reach.
+        </p>
+        <p>
+          In conclusion, TobeCoupon stands as a shining beacon in the realm of
+          online shopping, illuminating the path to incredible savings. By
+          offering a wide variety of promo codes, vouchers, and discounts, we
+          enhance the shopping experience, transforming each transaction into an
+          opportunity for considerable savings. With TobeCoupon, every customer
+          can enjoy the thrill of shopping combined with the joy of savings.
+          After all, who doesn't love a great deal? At TobeCoupon, we ensure
+          that fantastic deals are just a click away.
+        </p>
+      </div>
+    </section>
+    <section class="attachment">
+      <div class="wrapper">
+        <div class="attachment-wrap">
+          <div class="attachment-img">
+            <img
+              src="https://tobecoupon.com/img/appbanner.png"
+              alt="Tobecoupon"
+            />
+          </div>
+          <div class="attachment-img attachment-img__middle">
+            <img
+              src="https://tobecoupon.com/img/attachment-img-2.png"
+              alt="Tobecoupon"
+            />
+          </div>
+          <div class="attachment-img attachment-img__mob">
+            <img
+              src="https://tobecoupon.com/img/attachment-img-3.png"
+              alt="Tobecoupon"
+            />
+          </div>
+          <div class="attachment-info">
+            <h2 class="section-title">Mobile Application</h2>
+            <p>
+              Convenient shopping with cashback on your smartphone.<br />Available
+              on Google Play and the App Store.
+            </p>
+            <div class="attachment-btns">
+              <span class="main-btn btn-disabled">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="24"
+                  viewBox="0 0 20 24"
+                >
+                  <path
+                    fill="none"
+                    fill-rule="evenodd"
+                    stroke="#333"
+                    stroke-width="1.65"
+                    d="M18.98 18.038c-.363-.21-.763-.496-1.163-.869-1.173-1.092-1.884-2.564-1.883-4.397-.056-1.965 1.077-3.862 2.199-4.789-.96-.947-2.196-1.371-3.325-1.374-.695-.062-1.422.099-2.493.49l-.548.205c-.214.08-.367.135-.514.184-.425.141-.75.215-1.063.215-.563 0-.77-.064-2.098-.554-.865-.32-1.386-.453-1.898-.453-1.84.031-3.523 1.023-4.425 2.62-1.775 2.953-.886 7.89 1.511 11.19 1.364 2.01 2.162 2.756 3.156 2.657.444 0 .79-.075 1.354-.27l.292-.102c.939-.33 1.55-.466 2.449-.466.903 0 1.462.132 2.36.472l.104.04c.651.245.99.326 1.545.326 1.059 0 1.76-.64 3.071-2.573.498-.734.91-1.494 1.229-2.219.05-.115.098-.227.14-.333zM10.87 4.54c.82-.18 1.563-.632 2.103-1.299.562-.664.944-1.47 1.069-2.244-.815.248-1.632.73-2.114 1.298l-.017.02c-.569.629-.927 1.405-1.04 2.225z"
+                  />
+                </svg>
+                App Store
+              </span>
+              <span class="main-btn btn-disabled">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="22"
+                  viewBox="0 0 20 22"
+                >
+                  <g fill="none" stroke="#333" stroke-width="1.35">
+                    <path
+                      d="M10.476 9.999L.757 19.667c-.455-.322-.725-.856-.72-1.426V1.756C.032 1.186.302.652.757.33L10.477 10z"
+                      transform="translate(1 1)"
+                    />
+                    <path
+                      d="M13.877 6.621L10.477 10 .756.33C.794.301.832.274.872.25 1.385-.073 2.027-.083 2.55.22l11.327 6.4z"
+                      transform="translate(1 1)"
+                    />
+                    <path
+                      d="M17.998 9.999c.006.642-.332 1.236-.879 1.543l-3.242 1.834-3.4-3.377 3.4-3.378 3.242 1.834c.547.307.885.9.879 1.544z"
+                      transform="translate(1 1)"
+                    />
+                    <path
+                      d="M13.877 13.376l-11.327 6.4c-.524.3-1.163.29-1.678-.028-.04-.025-.078-.052-.115-.081l9.72-9.668 3.4 3.377z"
+                      transform="translate(1 1)"
+                    />
+                  </g>
+                </svg>
+                Google Play
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="arrow-top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="41"
+          height="41"
+          viewBox="0 0 41 41"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="20.5" cy="20.5" r="20" fill="#A2A2A2" opacity=".1" />
+            <path
+              stroke="#A2A2A2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M15 22l5-5 5 5"
+            />
+          </g>
+        </svg>
+      </div>
+      <div class="footer-top">
+        <div class="wrapper">
+          <div class="footer-col footer-col__1" onclick="footerMenuCoupons()">
+          
+            <h3 id="footer-col__title-1" class="footer-col__title">COUPONS</h3>
+            <div class="footer-col__wrap">
+              <div class="footer-col__row">
+                <ul>
+                  <li>
+                    <a href="https://tobecoupon.com/catalog/marketplaces"
+                      >Marketplaces</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tobecoupon.com/catalog/clothing-and-footwear"
+                      >Clothing and footwear</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tobecoupon.com/catalog/jewelry-and-accessories"
+                      >Jewelry and accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tobecoupon.com/catalog/electronics-and-technology"
+                      >Electronics and technology</a
+                    >
+                  </li>
+                </ul>
+                <ul class="footer-col__row__list-2">
+                  <li>
+                    <a
+                      href="https://tobecoupon.com/catalog/food-delivery-and-groceries"
+                      >Beauty and health</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tobecoupon.com/catalog/food-delivery-and-groceries"
+                      >Food delivery and groceries</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tobecoupon.com/catalog/leisure-and-entertainment"
+                      >Leisure and entertainment</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://tobecoupon.com/catalog/services"
+                      >Services</a
+                    >
+                  </li>
+                  
+                </ul>
+                <ul>
+                  <li>
+                    <a href="https://tobecoupon.com/catalog/children"
+                      >Everything for home</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://tobecoupon.com/catalog/everything-for-home"
+                      >Games</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://tobecoupon.com/catalog/children"
+                      >Travel</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://tobecoupon.com/catalog/everything-for-home"
+                      >Children</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col footer-col__2">
+            
+          </div>
+          <div class="footer-col footer-col__3" onclick="footerMenuSocial()">
+            <h3 class="footer-col__title" id="footer-col__title-2">SOCIAL</h3>
+            <div class="footer-col__wrap">
+              <ul>
+                <li>
+                  <a href="https://tobecoupon.com/" target="_blank">Facebook</a>
+                </li>
+                <li>
+                  <a href="https://tobecoupon.com/l/boTDUx" target="_blank"
+                    >Youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="wrapper">
+          <div class="footer-info">
+            <p>&copy; 2023 Tobecoupon</p>
+            <ul>
+              <li><a href="/page-agreement">Client Agreement</a></li>
+              <li><a href="/page-confidential">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-payouts">
+            <ul class="footer-apps">
+              <li>
+                <span><img src="/img/app-icon-1.svg" alt="" /></span>
+              </li>
+              <li>
+                <span><img src="/img/app-icon-2.svg" alt="" /></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--<div class="modal-overlay"></div>-->
+
+    <script src="js/slider.js"></script> <!-- Добавил -->
+    <script src="js/main.js"></script> <!-- Добавил -->
+
+    <script src="https://tobecoupon.com/js/scripts.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0869HN34M4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-0869HN34M4");
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(94285257, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/94285257"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </body>
+</html>
